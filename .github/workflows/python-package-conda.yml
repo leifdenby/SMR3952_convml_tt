@@ -1,4 +1,4 @@
-name:   SENSE_convml-tt
+name:   SMR3952_convml-tt
 on: [push]
 
 jobs:

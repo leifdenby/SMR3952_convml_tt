@@ -59,13 +59,13 @@ $> cd %homepath%\Desktop
 9. Check out a copy of the course material with git
 
 ```bash
-$> git clone https://github.com/leifdenby/SENSE_convml_tt
+$> git clone https://github.com/leifdenby/SMR3952_convml_tt
 ```
 
 10. Now you can change back to the folder where you cheched out the course
 material and open up the jupyter notebooks
 
 ```bash
-$> cd SENSE_convml_tt
+$> cd SMR3952_convml_tt
 $> jupyter notebook
 ```

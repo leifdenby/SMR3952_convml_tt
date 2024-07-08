@@ -1,15 +1,11 @@
-# SENSE CDT (University of Leeds) triplet-trainer course
+# SMR3952 triplet-trainer course
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/leifdenby/SENSE_convml_tt/HEAD) [![SENSE_convml-tt](https://github.com/leifdenby/SENSE_convml_tt/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/leifdenby/SENSE_convml_tt/actions/workflows/python-package-conda.yml)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/leifdenby/SMR3952_convml_tt/HEAD) [![SMR3952_convml_tt](https://github.com/leifdenby/SMR3952_convml_tt/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/leifdenby/SMR3952_convml_tt/actions/workflows/python-package-conda.yml)
 
 This repository contains material to work with the neural network model used in
 [L Denby
 (2020)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL085190)
-and was created for SENSE CDT training at University of Leeds on 6th
-March 2024 (material from previous years:
-[2021](https://github.com/leifdenby/SENSE_convml_tt/tree/2021), 
-[2022](https://github.com/leifdenby/SENSE_convml_tt/tree/2022) and 
-[2023](https://github.com/leifdenby/SENSE_convml_tt/tree/2023))
+and was originally created for [SENSE CDT training](https://github.com/leifdenby/SENSE_convml_tt) at University of Leeds.
 
 Exercises are stored as jupyter notebooks in [notebooks/](notebooks/)
 
@@ -31,8 +27,8 @@ Choose a suitable parent directory (for example your desktop, `~/Desktop`)
 and clone this repository so that you have a local copy of the exercises
 
 ```bash
-git clone https://github.com/leifdenby/SENSE_convml_tt
-cd SENSE_convml_tt
+git clone https://github.com/leifdenby/SMR3952_convml_tt
+cd SMR3952_convml_tt
 ```
 
 In the execises you will work with a dataset and trained model that comes
@@ -59,7 +55,7 @@ conda activate convml-tt
 ```
 
 Move to the path where you checked out the exercises (e.g.
-`~/Desktop/SENSE_convml_tt`)
+`~/Desktop/SMR3952_convml_tt`)
 
 And start up a jupyter session and get going with the exercises:
 
@@ -68,8 +64,6 @@ jupyter notebook
 ```
 
 The exercises are broken down as follows:
-
-1130 - 1230:
 
 1) **Dimensionality reduction**: Examine how the neural
    network has used the embedding space; are all 100 dimensions necessary? Can
@@ -80,8 +74,6 @@ The exercises are broken down as follows:
    clustering methods to study the extent to which the neural network has
    formed distinct clusters in the embedding space.
    notebook: [1b_Exploring_embedding_space_with_clustering_methods.ipynb](notebooks/1b_Exploring_embedding_space_with_clustering_methods.ipynb)
-
-1330 - 1500:
 
 3) **Using your own input data**: either by generating synthetic input tiles or
    using your own data source you will work with the pre-trained model to study
